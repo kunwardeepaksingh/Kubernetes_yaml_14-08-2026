@@ -10,6 +10,6 @@ spec:
     requests:
       storage: 5Gi
 
-  volumeName: mypv
-
-  storageClassName: ""
+  volumeMode: Filesystem
+  
+  storageClassName: storageclassdeepak
